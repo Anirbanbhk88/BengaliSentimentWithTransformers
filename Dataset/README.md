@@ -1,1 +1,9 @@
 #Datasets used in the study
+
+**Prothom Alo:** This is the [first dataset](https://github.com/KhondokerIslam/Bengali\_Sentiment) used in this study which is a publicly available dataset created from user comments on 10 popular news topics from an online Bengali news portal, [Prothom Alo](https://www.prothomalo.com/). This dataset is introduced by \citet{islam2020sentiment}, for convenience, we refer to this dataset as `Prothom Alo'. The authors scrape user comments from news threads and clean to obtain a total of 17,852 user comments. Each of the comments is tagged by Bengali domain experts into one of the following three classes: positive, negative, and neutral. The authors prepare a variant of this dataset as well which has only two classes by removing the neutral class entries. This step results in a dataset for two-class classification with 13,120 entries. 
+%The sentiment labels in the dataset are modified such that negative is labeled 0, positive is label 1, Neutral is label 2.  
+%We also use two other publicly available datasets for further validation. 
+
+**YouTube-B:** This is a collection of reviews manually annotated from [YouTube Bengali drama](https://data.mendeley.com/datasets/p6zc7krs37/4) consisting of 8500 positive reviews and 3307 negative reviews and is introduced by \citet{sazzed-2020-cross}. This dataset is a two-class dataset having only positive and negative as labels. We refer to this dataset as `YouTube-B' for the rest of the paper. `B' stands for Bengali language.
+
+**Book-B:** This is the third dataset introduced by \citet{hossain2021sentiment}. It is a collection of Bengali book reviews collected from web resources such as blogs, Facebook, and e-commerce sites. This dataset is also a two-class dataset (having positive and negative classes) with 2000 entries of book reviews. We refer to this dataset as `Book-B' for the rest of the paper.
