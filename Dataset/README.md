@@ -1,4 +1,4 @@
-#Datasets used in the study
+# Datasets used in the study
 
 **Prothom Alo:** This is the [first dataset](https://github.com/KhondokerIslam/Bengali\_Sentiment) used in this study which is a publicly available dataset created from user comments on 10 popular news topics from an online Bengali news portal, [Prothom Alo](https://www.prothomalo.com/). This dataset is introduced by \citet{islam2020sentiment}, for convenience, we refer to this dataset as `Prothom Alo'. The authors scrape user comments from news threads and clean to obtain a total of 17,852 user comments. Each of the comments is tagged by Bengali domain experts into one of the following three classes: positive, negative, and neutral. The authors prepare a variant of this dataset as well which has only two classes by removing the neutral class entries. This step results in a dataset for two-class classification with 13,120 entries. 
 %The sentiment labels in the dataset are modified such that negative is labeled 0, positive is label 1, Neutral is label 2.  
